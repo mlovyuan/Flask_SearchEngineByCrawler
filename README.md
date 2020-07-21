@@ -12,3 +12,7 @@
 
 Python的requests套件便有提供解決辦法：使用F12 > Network，將自己瀏覽器傳送的
 header複製下來，存入`requests.get()`的第二個參數，讓Server端認為該爬蟲是瀏覽器，從而獲取需要的資料內容。
+
+
+---
+`flask.request.args`用於`GET`請求時來獲取資料。
